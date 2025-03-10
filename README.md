@@ -101,7 +101,9 @@ Through simulations in LTSpice, various aspects of the differential amplifier ca
 * AC Analysis: Displays how the circuit performs across a range of frequencies, helping identify the bandwidth and frequency response.
  By replacing components like resistors with MOSFETs or current sources, we can improve gain, reduce power consumption, and enhance common-mode rejection. However, trade-offs may occur, such as reduced power efficiency when using MOSFETs in place of resistors.
 
-## Circuit 1:  
+## Circuit 1:
+![ckt1](https://github.com/user-attachments/assets/6b377562-62ad-4e51-844c-d39eeebacc21)
+
 ## DC Analysis:
 ![op 1](https://github.com/user-attachments/assets/002c5b77-869e-4b1d-8e5c-66e04630a2a0)
 
@@ -109,14 +111,18 @@ Through simulations in LTSpice, various aspects of the differential amplifier ca
 ![tr 1](https://github.com/user-attachments/assets/5edaf45c-58ec-48ac-beed-20870e16af6e)
 ![tr 11](https://github.com/user-attachments/assets/d53df214-da2f-46bb-b375-f208cf26eea3)
 Vout = 1.719V
+
 Av= 1.719 V/V
 
 ## AC Analysis:
 ![ac 1](https://github.com/user-attachments/assets/e93fc8e6-ad81-4615-a0fe-aa1db9520264)
 
 3dB Gain = 19.548 dB
+
 3dB gain bandwidth = 0 to 2.114 GHz
+
 CMRR = Differential gain (gmRD) / Common mode gain (Vout/Vincm) = 11.37
+
 
 
 ## Circuit 2: 
@@ -132,13 +138,18 @@ Replacing Rss with Current Source Iss.
 ![tr 21](https://github.com/user-attachments/assets/0b93f6f4-f526-4596-8952-e95c5020d763)
 ![tr 22](https://github.com/user-attachments/assets/dcf2ea00-4c76-4ada-8c95-a1d6e5e43901)
 Vout = 2.44V
+
 Av = 1.742 V/V
+
  
 ## AC Analysis:
 ![ac 2](https://github.com/user-attachments/assets/44a08ea5-3f1e-49bc-abba-1b234912ad21)
 3dB Gain = 19.54 dB
+
 3dB gain bandwidth = 0 to 2.112 GHz
+
 CMRR = Differential gain (gmRD) / Common mode gain (Vout/Vincm) = 11.21
+
 
 ## Circuit 3: 
 Replacing Rss with NMOS and input V_b = 0.5V
@@ -153,12 +164,16 @@ Replacing Rss with NMOS and input V_b = 0.5V
 ![tr 3](https://github.com/user-attachments/assets/7740e94f-bf6d-46ef-a17a-af39d682d47c)
 ![tr 31](https://github.com/user-attachments/assets/2ca0b03a-228a-4dad-9075-290b08d72fca)
 Vout = 1.709V
+
 Av = 1.709 V/V
+
 
 ## AC Analysis:
 ![ac 3](https://github.com/user-attachments/assets/d2d0b31d-92e8-4ef0-bbe2-19a5396501c8)
 3dB Gain = 19.447 dB
+
 3dB gain bandwidth = 0 to 2.127 GHz
+
 CMRR = Differential gain (gmRD) / Common mode gain (Vout/Vincm) = 11.01
 
 
@@ -175,12 +190,16 @@ Replacing R_d1 amd R_d2 by PMOS.
 ![tr 4](https://github.com/user-attachments/assets/6cc33d22-11d3-4d23-921f-079b00cda445)
 ![tr 41](https://github.com/user-attachments/assets/cacdbe6f-4b07-4b70-9aa6-546060febf19)
 Vout = 337.8mV
+
 Av = 1.876 V/V
+
 
 ## AC Analysis:
 ![ac 4](https://github.com/user-attachments/assets/dc04c930-e253-418a-a0ab-c61c78191bc5)
 3dB Gain = 5.15 dB
+
 3dB gain bandwidth = 0 to 5.75 GHz
+
 CMRR = Differential gain (gmRD) / Common mode gain (Vout/Vincm) = 2.74
 
 
