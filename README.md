@@ -109,10 +109,55 @@ Through simulations in LTSpice, various aspects of the differential amplifier ca
 
 ## Circuit 2: 
 Replacing Rss with Current Source Iss.
+![ckt 2](https://github.com/user-attachments/assets/9898ff21-f3e4-4193-b89c-07bc0104ec5f)
 
 ## DC Analysis:
+![op 2](https://github.com/user-attachments/assets/91d55f65-7a50-4b50-9e82-de0968791f1a)
+
+ 
+## Transient Analysis:
+![tr 2](https://github.com/user-attachments/assets/f389514e-43ac-42b7-aff8-da79b4126edf)
+![tr 21](https://github.com/user-attachments/assets/0b93f6f4-f526-4596-8952-e95c5020d763)
+
+## AC Analysis:
+![ac 2](https://github.com/user-attachments/assets/44a08ea5-3f1e-49bc-abba-1b234912ad21)
 
 
+## Circuit 3: 
+Replacing Rss with NMOS and input V_b = 0.5V
+![ckt 3](https://github.com/user-attachments/assets/961f1fee-02e5-443c-8c3c-615be7886457)
+
+
+## DC Analysis:
+![op 3](https://github.com/user-attachments/assets/069833e4-52b1-4192-8764-aa769a615cb5)
+
+ 
+## Transient Analysis:
+![tr 3](https://github.com/user-attachments/assets/7740e94f-bf6d-46ef-a17a-af39d682d47c)
+
+
+## AC Analysis:
+![ac 3](https://github.com/user-attachments/assets/d2d0b31d-92e8-4ef0-bbe2-19a5396501c8)
+
+
+
+## Circuit 4: 
+Replacing R_d1 amd R_d2 by PMOS.
+![ckt 4](https://github.com/user-attachments/assets/893e6b1f-7173-4fa0-8ad0-b05278bc4268)
+
+## DC Analysis:
+![op 4](https://github.com/user-attachments/assets/ccccc346-54b5-407b-b4b1-a639ca5e9ded)
+
+ 
+## Transient Analysis:
+![tr 4](https://github.com/user-attachments/assets/6cc33d22-11d3-4d23-921f-079b00cda445)
+
+
+## AC Analysis:
+![ac 4](https://github.com/user-attachments/assets/dc04c930-e253-418a-a0ab-c61c78191bc5)
+
+
+# 8. Inference
 
 
 # 9. Conclusion
