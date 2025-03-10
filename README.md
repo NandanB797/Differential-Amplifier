@@ -1,24 +1,28 @@
 # Differential-Amplifier
 
-CONTENTS:
-1.Introduction to Differential Amplifiers
-2.Circuit Diagram & Specifications
-3.Working Principle of Differential Amplifiers
-4.Analysis & Design of Differential Amplifiers
-5.Role of Key Components & LTSpice Simulation Steps
-6.Frequency Response & Gain Calculation
-7.Applications of Differential Amplifiers
-8.Simulation Results & Inferences
+## CONTENTS:
+* Introduction to Differential Amplifiers
+* Circuit Diagram & Specifications
+* Working Principle of Differential Amplifiers
+* Analysis & Design of Differential Amplifiers
+* Role of Key Components & LTSpice Simulation Steps
+* Frequency Response & Gain Calculation
+* Applications of Differential Amplifiers
+* Simulation Results & Inferences
 
 
 
 
-4. Operational Amplifier (Op-Amp) as Differential Amplifier
+ Operational Amplifier (Op-Amp) as Differential Amplifier
 
 An operational amplifier can be used as a differential amplifier by connecting the two inputs to the non-inverting and inverting terminals of the op-amp. This is the most common configuration in practical applications.
 
 1. Introduction to Differential Amplifiers
 A differential amplifier is a key component in many analog circuits. Its primary role is to amplify the difference between two input signals, while filtering out any signals that are common to both inputs. This makes it highly effective in reducing noise and improving signal integrity. It’s used in a variety of applications, such as operational amplifiers (op-amps), sensor signal processing, and communication systems.
+
+Operational Amplifier (Op-Amp) as Differential Amplifier
+
+An operational amplifier can be used as a differential amplifier by connecting the two inputs to the non-inverting and inverting terminals of the op-amp. This is the most common configuration in practical applications.
 
 The circuit typically consists of two main transistors (or MOSFETs) that work together to amplify the voltage difference between two input signals. The output of the amplifier is proportional to this difference.
 
